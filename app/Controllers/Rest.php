@@ -13,7 +13,7 @@ class Rest extends ResourceController
      */
     public function index()
     {
-        //
+        echo "Working";
     }
 
     /**
