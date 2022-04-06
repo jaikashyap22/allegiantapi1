@@ -1,0 +1,56 @@
+CRITICAL - 2022-04-05 08:41:42 --> Argument 1 passed to CodeIgniter\BaseModel::findAll() must be of the type int, string given, called in E:\Xampp\htdocs\office\Allegiant\allegiantapi\app\Controllers\Contact.php on line 101
+#0 E:\Xampp\htdocs\office\Allegiant\allegiantapi\app\Controllers\Contact.php(101): CodeIgniter\BaseModel->findAll('')
+#1 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(832): App\Controllers\Contact->News()
+#2 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#3 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\office\Allegiant\allegiantapi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-05 08:42:07 --> Argument 1 passed to CodeIgniter\BaseModel::findAll() must be of the type int, string given, called in E:\Xampp\htdocs\office\Allegiant\allegiantapi\app\Controllers\Contact.php on line 101
+#0 E:\Xampp\htdocs\office\Allegiant\allegiantapi\app\Controllers\Contact.php(101): CodeIgniter\BaseModel->findAll('')
+#1 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(832): App\Controllers\Contact->News()
+#2 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#3 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\office\Allegiant\allegiantapi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-05 08:44:24 --> Argument 1 passed to CodeIgniter\BaseModel::findAll() must be of the type int, string given, called in E:\Xampp\htdocs\office\Allegiant\allegiantapi\app\Controllers\News.php on line 31
+#0 E:\Xampp\htdocs\office\Allegiant\allegiantapi\app\Controllers\News.php(31): CodeIgniter\BaseModel->findAll('')
+#1 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(832): App\Controllers\News->show()
+#2 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#3 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\office\Allegiant\allegiantapi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-05 08:44:42 --> Argument 1 passed to CodeIgniter\BaseModel::findAll() must be of the type int, string given, called in E:\Xampp\htdocs\office\Allegiant\allegiantapi\app\Controllers\News.php on line 31
+#0 E:\Xampp\htdocs\office\Allegiant\allegiantapi\app\Controllers\News.php(31): CodeIgniter\BaseModel->findAll('')
+#1 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(832): App\Controllers\News->show()
+#2 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#3 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\office\Allegiant\allegiantapi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-05 08:45:00 --> Argument 1 passed to CodeIgniter\BaseModel::findAll() must be of the type int, string given, called in E:\Xampp\htdocs\office\Allegiant\allegiantapi\app\Controllers\News.php on line 31
+#0 E:\Xampp\htdocs\office\Allegiant\allegiantapi\app\Controllers\News.php(31): CodeIgniter\BaseModel->findAll('')
+#1 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(832): App\Controllers\News->show()
+#2 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#3 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\office\Allegiant\allegiantapi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-05 08:46:00 --> Argument 1 passed to CodeIgniter\BaseModel::findAll() must be of the type int, string given, called in E:\Xampp\htdocs\office\Allegiant\allegiantapi\app\Controllers\News.php on line 33
+#0 E:\Xampp\htdocs\office\Allegiant\allegiantapi\app\Controllers\News.php(33): CodeIgniter\BaseModel->findAll('')
+#1 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(832): App\Controllers\News->show()
+#2 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#3 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\office\Allegiant\allegiantapi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-05 08:46:33 --> Argument 1 passed to CodeIgniter\BaseModel::findAll() must be of the type int, null given, called in E:\Xampp\htdocs\office\Allegiant\allegiantapi\app\Controllers\News.php on line 28
+#0 E:\Xampp\htdocs\office\Allegiant\allegiantapi\app\Controllers\News.php(28): CodeIgniter\BaseModel->findAll(NULL)
+#1 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(832): App\Controllers\News->show()
+#2 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#3 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\office\Allegiant\allegiantapi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-05 09:02:57 --> syntax error, unexpected ''Access-Control-Allow-Methods:' (T_ENCAPSED_AND_WHITESPACE)
+#0 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('News/show/3')
+#1 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('News/show/3')
+#2 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\office\Allegiant\allegiantapi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

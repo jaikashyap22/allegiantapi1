@@ -1,0 +1,69 @@
+CRITICAL - 2022-04-02 10:30:56 --> Call to undefined function App\Controllers\now()
+#0 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(832): App\Controllers\Contact->new()
+#1 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#2 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\office\Allegiant\allegiantapi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-02 10:36:48 --> Column 'email' cannot be null
+CRITICAL - 2022-04-02 10:36:48 --> Column 'email' cannot be null
+#0 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\Xampp\htdocs\office\Allegiant\allegiantapi\app\Controllers\Contact.php(64): CodeIgniter\Model->insert(Array)
+#8 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(832): App\Controllers\Contact->new()
+#9 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#10 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\Xampp\htdocs\office\Allegiant\allegiantapi\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-04-02 10:53:05 --> Column 'message' cannot be null
+CRITICAL - 2022-04-02 10:53:05 --> Column 'message' cannot be null
+#0 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\Xampp\htdocs\office\Allegiant\allegiantapi\app\Controllers\Contact.php(64): CodeIgniter\Model->insert(Array)
+#8 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(832): App\Controllers\Contact->new()
+#9 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#10 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\Xampp\htdocs\office\Allegiant\allegiantapi\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-02 10:58:28 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-04-02 11:06:43 --> Column 'message' cannot be null
+CRITICAL - 2022-04-02 11:06:43 --> Column 'message' cannot be null
+#0 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\Xampp\htdocs\office\Allegiant\allegiantapi\app\Controllers\Contact.php(62): CodeIgniter\Model->insert(Array)
+#8 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(832): App\Controllers\Contact->new()
+#9 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#10 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\Xampp\htdocs\office\Allegiant\allegiantapi\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-04-02 11:08:35 --> Column 'message' cannot be null
+CRITICAL - 2022-04-02 11:08:35 --> Column 'message' cannot be null
+#0 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\Xampp\htdocs\office\Allegiant\allegiantapi\app\Controllers\Contact.php(62): CodeIgniter\Model->insert(Array)
+#8 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(832): App\Controllers\Contact->new()
+#9 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#10 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\Xampp\htdocs\office\Allegiant\allegiantapi\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

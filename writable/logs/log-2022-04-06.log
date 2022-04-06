@@ -1,0 +1,18 @@
+CRITICAL - 2022-04-06 00:24:02 --> Call to undefined method App\Controllers\APIController::respondCreated()
+#0 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(832): App\Controllers\APIController->NewDetails()
+#1 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\APIController))
+#2 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\office\Allegiant\allegiantapi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-06 00:35:59 --> Call to undefined method App\Controllers\News::find()
+#0 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(832): App\Controllers\APIController->NewDetails()
+#1 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\APIController))
+#2 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\office\Allegiant\allegiantapi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-06 00:36:12 --> Call to undefined method App\Controllers\News::find()
+#0 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(832): App\Controllers\APIController->NewDetails()
+#1 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\APIController))
+#2 E:\Xampp\htdocs\office\Allegiant\allegiantapi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\office\Allegiant\allegiantapi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
