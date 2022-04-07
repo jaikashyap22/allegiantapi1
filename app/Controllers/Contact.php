@@ -70,7 +70,8 @@ class Contact extends ResourceController
             'created_at'=> $now
         );
 
-        $ContactModel = new ContactForm();
+//        $ContactModel = new ContactForm();
+
         if($ContactModel->insert($insertdata))
         {
             $data = array(
